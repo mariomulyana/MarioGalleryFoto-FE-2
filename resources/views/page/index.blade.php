@@ -15,7 +15,7 @@
 
     <nav class="bg-white border-gray-200 shadow-md dark:bg-gray-900">
         <div class="flex flex-wrap items-center justify-between max-w-screen-md p-4 mx-auto">
-            <h3 class="text-3xl font-hurricane">PinMe</h3>
+            <h3 class="text-3xl font-hurricane">Mario</h3>
             <div class="flex gap-1">
                 <a href="/login"><button class="px-5 py-1 text-white rounded-full bg-biru">Login</button></a>
                 <a href="/register"><button class="px-5 py-1 rounded-full bg-bgcolor2">Register</button></a>
@@ -24,9 +24,9 @@
     </nav>
     <section class="">
         <div class="flex flex-col">
-            <h3 class="mt-4 text-5xl text-center font-hurricane">PinMe</h3>
+            <h3 class="mt-4 text-5xl text-center font-hurricane">Kamu Memang Sudah Pergi</h3>
             <h3 class="text-center font-hurricane text-7xl">
-                Save Your Momments
+                Tapi Fotomu Masih Ada Di Galeri
             </h3>
         </div>
         <div class=" mt-9">

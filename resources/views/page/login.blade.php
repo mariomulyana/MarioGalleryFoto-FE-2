@@ -15,7 +15,7 @@
 
     <nav class="bg-white border-gray-200 shadow-md dark:bg-gray-900">
         <div class="flex flex-wrap items-center justify-between max-w-screen-md p-4 mx-auto">
-            <h3 class="text-3xl font-hurricane">PinMe</h3>
+            <h3 class="text-3xl font-hurricane">Mario</h3>
             <div class="flex gap-1">
                 <a href="/login"><button class="px-5 py-1 text-white rounded-full bg-biru">Login</button></a>
                 <a href="/register"><button class="px-5 py-1 rounded-full bg-bgcolor2">Register</button></a>
@@ -44,13 +44,13 @@
         <form action="/auth" method="POST">
             @csrf
         <div class="flex flex-col">
-            <h3 class="mx-auto text-3xl font-hurricane">PinMe</h3>
+            <h3 class="mx-auto text-3xl font-hurricane">Login</h3>
             <h4 class="mt-3">Email</h4>
             <input type="text" class="py-1 rounded-md text-slate-700" name="email">
             <h4 class="mt-3">Password</h4>
             <input type="password" class="py-1 rounded-md text-slate-700" name="password">
             <button type="submit" class="py-1 mt-4 text-center text-white rounded-full bg-biru">Login</button>
-            <h5 class="mx-auto mt-4 text-xs">Belum punya account, silahkan daftar <a href="/register">disini.!</a></h5>
+            <h5 class="mx-auto mt-4 text-xs">Belum punya akun, silahkan daftar <a href="/register">disini..!</a></h5>
         </div>
     </form>
     </div>

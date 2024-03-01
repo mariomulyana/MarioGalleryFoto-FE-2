@@ -3,7 +3,7 @@
         <a href="/explore" class="mr-4">EXPLORE</a>
         <a href="/pinned" class="mr-4">PINNED</a>
         <input type="text" class="px-4 py-1 mr-4 rounded-full" placeholder="Search ...">
-        <a href="/pin" class="mr-4">PIN</a>
+        <a href="/pin" class="mr-4">UPLOAD</a>
         <div class="flex items-center space-x-1 md:order-2 md:space-x-0 rtl:space-x-reverse">
             <img src="/assets/users.png" alt="" class="w-10 " data-dropdown-toggle="user-dropdown-menu">
             <!-- Drop Down -->
@@ -11,7 +11,7 @@
                 id="user-dropdown-menu">
                 <ul class="py-2" role="none">
                     <li>
-                        <a href="my-pin.html"
+                        <a href="/mypin"
                             class="px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                             role="menuitem">
                             <div class="inline-flex items-center">
@@ -29,7 +29,16 @@
                         </a>
                     </li>
                     <li>
-                        <a href="logout"
+                        <a href="/album"
+                            class="px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                            role="menuitem">
+                            <div class="inline-flex items-center">
+                               Album
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/logout"
                             class="px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                             role="menuitem">
                             <div class="inline-flex items-center">

@@ -12,7 +12,7 @@
         </div>
         <a href="profil.html">
             <h3 class="text-xl font-semibold">
-                OmenSoft
+                Mario Mulyana
             </h3>
         </a>
         <small class="text-xs ">In this link, I present my services as well as all the tools that help me in
